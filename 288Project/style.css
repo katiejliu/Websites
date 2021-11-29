@@ -1,0 +1,31 @@
+html,body {
+  color:white;
+  overflow: hidden;
+  /* margin: 0;
+  padding: 0; */
+
+  margin: 50px;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  background-color: #FFAEF6;
+}
+
+#title{
+  top:5px;
+  position: fixed;
+  font-family: 'Petemoss', cursive;
+  font-size: 150px;
+}
+
+#caption{
+  bottom: 180px;
+  position: fixed;
+  font-family: 'Petemoss', cursive;
+  font-size:100px;
+}
+
